@@ -8,7 +8,7 @@ conda env create --name jam-buddy python=3.10
 ```
 2. Add packages to conda
 ```
-conda install anaconda::pandas
+conda install -c conda-forge python-sounddevice numpy
 ```
 3. Set up jupyter for conda environment ([sauce](https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook))
 
