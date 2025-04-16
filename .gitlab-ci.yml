@@ -14,4 +14,4 @@ sync_to_github:
     - git remote set-url --push origin git@gitlab.com:empty-labs/jam-buddy.git
     - git push github --mirror  # <- this is the magic: pushes *everything
   only:
-    - branches
+    - main
