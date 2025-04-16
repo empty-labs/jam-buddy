@@ -4,7 +4,6 @@ stages:
 sync_to_github:
   stage: sync
   script:
-    - git remote remove github || true
     - git remote add github https://$CI_PROJECT_NAMESPACE:$GITHUB_TOKEN@github.com/empty-labs/jam-buddy.git
     - git push github --all
     - git push github --tags
