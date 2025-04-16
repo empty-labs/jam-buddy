@@ -7,7 +7,7 @@ This project is a simple tool to add a delay effect to a live guitar sound using
 1. Electric guitar
 2. SSL-2 audio interface, with guitar cable plugged into channel 1
 3. Run "Simple Delay" notebook
-4. Enjoy!
+4. Enjoy the delay!
 
 ## Conda environment
 
