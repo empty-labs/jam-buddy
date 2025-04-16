@@ -9,7 +9,9 @@ sync_to_github:
     - git config --global user.email "mdt2014@gmail.com"
     - git config --global user.name "Matthew Taylor"
     - git remote add github https://$GITHUB_PAT@github.com/empty-labs/jam-buddy.git
-    - git push github --all
-    - git push github --tags
+    - git fetch --all
+    - git branch -r
+    - git remote set-url --push origin git@gitlab.com:your-username/jam-buddy.git
+    - git push github --mirror  # <- this is the magic: pushes *everything
   only:
     - branches
