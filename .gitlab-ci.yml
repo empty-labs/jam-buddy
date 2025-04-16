@@ -11,7 +11,7 @@ sync_to_github:
     - git remote add github https://$GITHUB_PAT@github.com/empty-labs/jam-buddy.git
     - git fetch --all
     - git branch -r
-    - git remote set-url --push origin git@gitlab.com:your-username/jam-buddy.git
+    - git remote set-url --push origin git@gitlab.com:empty-labs/jam-buddy.git
     - git push github --mirror  # <- this is the magic: pushes *everything
   only:
     - branches
