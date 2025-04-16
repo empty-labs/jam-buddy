@@ -8,7 +8,7 @@ sync_to_github:
     - apk add git openssh
     - git config --global user.email "mdt2014@gmail.com"
     - git config --global user.name "Matthew Taylor"
-    - git remote add github https://$GITHUB_PAT@github.com/empty-labs/jam-buddy.git
+    - git remote add github https://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@github.com/empty-labs/jam-buddy.git
     - git fetch --all
     - git branch -r
     - git remote set-url --push origin git@gitlab.com:empty-labs/jam-buddy.git
