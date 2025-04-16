@@ -6,9 +6,10 @@ sync_to_github:
   image: alpine:latest
   script:
     - apk add git openssh
+    - git remote remove github || true
+    - git remote add github https://$CI_PROJECT_NAMESPACE:$GITHUB_TOKEN@github.com/empty-labs/jam-buddy.git
     - git config --global user.email "mdt2014@gmail.com"
     - git config --global user.name "Matthew Taylor"
-    - git remote add github https://$GITHUB_PAT@github.com/empty-labs/jam-buddy.git
     - git fetch --all
     - git branch -r
     - git remote set-url --push origin git@gitlab.com:empty-labs/jam-buddy.git
