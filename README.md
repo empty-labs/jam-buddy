@@ -9,6 +9,7 @@ This project is a simple tool to add a delay effect to a live guitar sound using
 3. Run "Simple Delay" notebook
 4. Enjoy!
 
+
 ## Conda environment
 
 1. Create new conda environment. Alternatively, just use Pycharm interpreter settings to create conda environment (easier)
