@@ -1,4 +1,4 @@
-![](empty-labs-logo-wide.png)
+
 
 # Jam Buddy
 
