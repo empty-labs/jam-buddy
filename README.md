@@ -1,3 +1,5 @@
+![](empty-labs-logo-wide.png)
+
 # Jam Buddy
 
 This project is a simple tool to add a delay effect to a live guitar sound using an SSL-2 audio interface.  Planning to include more effects in the future as time permits
